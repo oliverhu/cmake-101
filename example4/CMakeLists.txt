@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project (globalProject)
+add_subdirectory(studentlib_shared)
+add_subdirectory(studentlib_static)
+add_subdirectory(usestudentlib)
