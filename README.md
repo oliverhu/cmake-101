@@ -6,8 +6,16 @@ Make (or rather a Makefile) is a buildsystem - it drives the compiler and other 
 
 I've primarily exposed to the Java build system. Want to get some basic understanding of the build systems for C/C++, recent projects require me to have a good grip of C/C++ projects.
 
+This project is a mix of many open source blogs & projects for record. The default documentation on CMake official website is as bad as many other open source projects.
+
+## Prereq
+$ sudo apt install libboost-dev
+$ sudo apt install libboost-all-dev
+
 ## References
 
 https://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/chap1/chap1.html (only chap1 works)
 
 http://derekmolloy.ie/hello-world-introductions-to-cmake/
+
+https://cliutils.gitlab.io/modern-cmake/
